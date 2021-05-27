@@ -9,8 +9,9 @@ import java.util.Date;
 
 /**
  *
- * @author achab
+ * @author achab date May 2021
  */
+
 public class Lot {
     
 private int type;
