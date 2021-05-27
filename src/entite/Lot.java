@@ -5,6 +5,8 @@
  */
 package entite;
 
+import java.util.Date;
+
 /**
  *
  * @author achab
@@ -15,7 +17,8 @@ private int type;
 private String description;
 private int nombre_droits_passage,nombre_services;
 private double superficie;
-
+// ajout propriete date_mesure
+private Date date_mesure;
  public Lot(int type) {
         this.type = type;
     } 
